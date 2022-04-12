@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.home {
+    background-image: url('../assets/bg.gif');
+    object-fit: fill;
+}
+
+.home h2 {
+    font-size: 6.2rem;
+    text-shadow: 0px 6.6px 6.6px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.8);
+}
+
+.home p {
+    font-weight: 400;
+    font-size: 2.2rem;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home main {
+    margin: 30vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore .card {
+    background: #212F42 ;
+    margin: 1%;
+    transition: all .5s;
+}
+
+.explore .card:hover {
+    background: #2e425e ;
+    margin-top: -1px;
+}
+
+.explore .card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    padding: 0 .5%;
+}
+
+.explore .card-title {
+    text-align: center;
+}
+
+.explore .text-card p {
+    max-height: 15vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    text-align: center;
+}
+
+.explore .card-group a{
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    color: white;
+}
+
+.card-text {
+    max-height: 10ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+}
+
+.explore .container {
+    width: 70vw;
+    height: 70vh;
+    background: rgba(46, 65, 90, 0.5);
+    border-radius: 15px;
+    margin: 10vh auto;
+}
+
+.explore h2 {
+    padding: 2% 0;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.explore {
+    background: linear-gradient(180deg, #05141A 0%, #212F42 37.5%, #1D2C3D 67.19%, #182736 100%);
+}
+
+.about {
+    color: white;
+    background: linear-gradient(180deg, #182736 0%, #1F2D3F 37.5%, #1D2C3D 63.54%, #1C2B3C 100%);
+}
+
+.copy {
+    background-image: url('../assets/bg.gif');
+}
+
+.about .row {
+    margin: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .row .box {
+    margin-left: 8.5vw;
+}
+
+.about .row p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.about .row img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    padding: 8%;
+}
+
+.about .box {
+    width: 40vw;
+    height: 80vh;
+    background: #2E415A;
+    border-radius: 20px 0px 0px 20px;
+}
+
+nav {
+    background-color: rgb(0, 0, 0, 25%);
+    border-radius: 0 0 15px 15px;
+}
+
+.nav-item a {
+    transition: all .3s ease-out;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-item a:hover {
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: -2px;
+}
+
+.logo {
+    position: absolute;
+    transform: translate(-50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}

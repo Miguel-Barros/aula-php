@@ -1,0 +1,39 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    outline: none;
+}
+
+table {
+    cursor: pointer;
+}
+
+
+input {
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    border: .5px solid gray;
+    width: 10%;
+    height: 5vh;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    margin: 1%;
+}
+
+main {
+    margin: 0 auto;
+    width: 70%;
+}
